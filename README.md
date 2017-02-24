@@ -1,24 +1,35 @@
-# Sensibilisation sur la sécuriation de ses données personnelles
+## Sensibilisation sur la sécurisation de ses données personnelles
 
-## Situation actuelle
-- Don de ses données personnelles
-- Fuite des données
-- Espionnage d'État
+Avoir une meilleure vision de la situation, comprendre les enjeux et apprendre les actions que l'on peut réaliser simplement.
 
 
-## Enjeux
-- Droit à la vie privée
-- "Je n'ai rien à cacher"... pourquoi est-ce dangereux de penser comme ça
-- Autocensure
-- Démocratie
+---
 
-## Ce que l'on peut faire
-- Bloquer les pubs et les trackers sur son navigateur
-- Chiffrer ou "crypter" ?
-- Avoir une bonne hygiène concernant ses mots de passe
+### Voir la présentation sur son ordinateur
 
-## Aller plus loin
-- Utiliser un VPN personel
-- Chiffrer son téléphone et son ordinateur
-- Utiliser une boite email chiffrée
-- Signer et chiffrer des documents
+Présentation créée avec [Reveal.js](https://github.com/hakimel/reveal.js)
+
+1.  Installer [Node.js](http://nodejs.org/) (>= 4.0.0)
+1.  Cloner le repository
+    ```sh
+    git clone git@github.com:guillaumecabanel/ruby_101.git
+    ```
+
+1.  Aller dans le dossier ruby_101
+    ```sh
+    cd ruby_101
+    ```
+
+1.  Installer les dépendances
+    ```sh
+    npm install
+    ```
+
+1.  Lancer le serveur local
+    ```sh
+    npm start
+    ```
+
+1.  Ouvrir [http://localhost:8000](http://localhost:8000) pour voir la présentation
+
+1.  Appuyer sur `s` pour lancer le mode Speaker
