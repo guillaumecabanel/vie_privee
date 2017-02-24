@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Sécurisaiton de ses données</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/black.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<link rel="stylesheet" href="/css/master.css" media="screen" title="no title" charset="utf-8">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section class="faded" data-background-image="images/city-people-walking-blur.jpg">
+				<h1>Sécurisation de ses données personnelles</h1>
+
+				<aside class="notes">
+					<ol>
+						<li>
+							<h2>Situation actuelle</h2></li>
+						<li>
+							<h2>Enjeux</h2></li>
+						<li>
+							<h2>Actions</h2></li>
+					</ol>
+				</aside>
+			</section>
+
+			<section>
+				<section>
+					<h2>Situation actuelle</h2>
+					<aside class="notes">
+						<ul>
+							<li>Don de ses données personnelles</li>
+							<li>Fuite des données</li>
+							<li>Espionnage d'État</li>
+						</ul>
+					</aside>
+				</section>
+				<section>
+					<p>Google, Facebook, ...</p>
+					<p>Si vous êtes le produit, alors ce n'est pas gratuit.</p>
+				</section>
+				<section>
+					<a href="https://www.google.com/policies/privacy/">
+						https://www.google.com/policies/privacy/
+					</a>
+					<a href="https://www.facebook.com/about/privacy">
+						https://www.facebook.com/about/privacy
+					</a>
+				</section>
+			</section>
+
+			<section>
+				<section>
+					<h2>Actions</h2>
+					<a class="a-img" href="https://protonmail.com/">
+						<img src="images/proton-mail-logo.png">
+					</a>
+				</section>
+			</section>
+
+			<section>
+				<h3>Sources, références et lectures</h3>
+				<ul class="no-bullet">
+					<li>
+						<i class="fa fa-arrow-right"></i>
+						<a href="https://www.laquadrature.net/fr/si-vous-etes-le-produit">laquadrature.net</a>
+					</li>
+
+					<li>
+						<i class="fa fa-arrow-right"></i>
+						<a href="https://riseup.net/fr">riseup.net</a>
+					</li>
+				</ul>
+
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info https://github.com/hakimel/reveal.js#configuration
+		Reveal.initialize({
+			history: true,
+
+			// More info https://github.com/hakimel/reveal.js#dependencies
+			dependencies: [{
+				src: 'plugin/markdown/marked.js'
+			}, {
+				src: 'plugin/markdown/markdown.js'
+			}, {
+				src: 'plugin/notes/notes.js',
+				async: true
+			}, {
+				src: 'plugin/highlight/highlight.js',
+				async: true,
+				callback: function() {
+					hljs.initHighlightingOnLoad();
+				}
+			}]
+		});
+	</script>
+
+	<script src="https://use.fontawesome.com/822935bb46.js"></script>
+
+</body>
+
+</html>
