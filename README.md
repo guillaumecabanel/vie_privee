@@ -12,7 +12,7 @@ Présentation créée avec [Reveal.js](https://github.com/hakimel/reveal.js)
 1.  Installer [Node.js](http://nodejs.org/) (>= 4.0.0)
 1.  Cloner le repository
     ```sh
-    git clone git@github.com:guillaumecabanel/ruby_101.git
+    git clone git@github.com:guillaumecabanel/vie_privee.git
     ```
 
 1.  Aller dans le dossier ruby_101
